@@ -247,6 +247,65 @@
 
 // ===========EVENT=========
 
+// const btnElement = document.querySelector("#btn-click");
+
+// // btnElement.addEventListener("click", printSomething, useCapture )
+// btnElement.addEventListener("click", printSomething )
+
+// function printSomething(){
+//     console.log("printSomething");
+// }
+// console.log(btnElement);
 
 
+//Mouse
+// click
+// doubleClick
+// mousedown
+// mouseup
+// mouseenter
+// mouseleave
+// mouvemove
+// mouseover
+// mouseout
 
+// keyboard
+//keypress
+//keydown
+//keyup
+
+// const inputElement = document.querySelector("#inputField");
+
+// inputElement.addEventListener("keypress", printSomething )
+
+// function printSomething(event){
+//     console.log(event.target.id);
+// }
+// console.log(btnElement);
+
+//scroll
+
+// const textElement = document.querySelector(".wrapper");
+
+// textElement.addEventListener("scroll", printSomething )
+
+// function printSomething(){
+//     console.log("Scroll is triggered");
+// }
+
+const myBatchStudent = [
+    "Neha", "Pranali", "Sandhya", "Minakshi", "Pavani", "Nasrina","Nasir"
+];
+
+
+const showName = document.querySelector(".studentName");
+const btn = document.querySelector(".btn");
+
+btn.addEventListener("click", selectStudent);
+
+function selectStudent(){
+    const randomIndex = Math.floor(Math.random() * myBatchStudent.length);
+    const randomName = myBatchStudent[randomIndex]
+    // console.log(randomName);
+    showName.textContent = randomName
+}
