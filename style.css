@@ -1,0 +1,83 @@
+*{
+ box-sizing: border-box;
+ margin: 0px;
+ padding: 0px;
+}
+
+li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+nav{
+    background-color: aqua;
+}
+
+nav > ul{
+    display: flex;
+}
+
+.imageWrapper{
+    width: 1900px;
+}
+
+.imageWrapper > img{
+    width: 350px;
+    height: 250px;
+}
+
+#mainWrapper{
+    display: flex;
+    /* flex: 1fr 0.5fr; */
+    border: 2px solid red;
+
+}
+
+section{
+    width: 750px;
+    border: 1px solid gray;
+}
+
+section ul li{
+    background-color: rgb(165, 165, 236);
+    margin-top: 10px;
+}
+
+.parentBox{
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+.childBox{
+    background-color: rgb(63, 224, 95);
+    padding: 20px;
+}
+
+.child{
+    background-color: aqua;
+    margin: 15px;
+}
+
+.bgRed{
+    background-color: red;
+}
+
+.dottedBorder{
+    border: 3px dotted green;
+}
+
+.test{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.wrapper{
+    border: 3px solid red;
+    padding: 20px;
+}
+
+.apple2 li{
+    background-color: aqua;
+    margin: 5px;
+}
