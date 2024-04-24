@@ -293,19 +293,21 @@
 //     console.log("Scroll is triggered");
 // }
 
-const myBatchStudent = [
-    "Neha", "Pranali", "Sandhya", "Minakshi", "Pavani", "Nasrina","Nasir"
-];
+// const myBatchStudent = [
+//     "Neha", "Pranali", "Sandhya", "Minakshi", "Pavani", "Nasrina","Nasir"
+// ];
 
 
-const showName = document.querySelector(".studentName");
-const btn = document.querySelector(".btn");
+// const showName = document.querySelector(".studentName");
+// const btn = document.querySelector(".btn");
 
-btn.addEventListener("click", selectStudent);
+// btn.addEventListener("click", selectStudent);
 
-function selectStudent(){
-    const randomIndex = Math.floor(Math.random() * myBatchStudent.length);
-    const randomName = myBatchStudent[randomIndex]
-    // console.log(randomName);
-    showName.textContent = randomName
-}
+// function selectStudent(){
+//     const randomIndex = Math.floor(Math.random() * myBatchStudent.length);
+//     const randomName = myBatchStudent[randomIndex]
+//     // console.log(randomName);
+//     showName.textContent = randomName
+// }
+
+ 
